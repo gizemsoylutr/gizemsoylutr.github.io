@@ -18,7 +18,14 @@ hero:
   intro: "Hi, I am"
   title: "Gizem Nur Soylu"
   subtitle: "SAP Cloud Technical Architect"
-  content: "Think simple, do simple"
+  content: ""
+  
+  # Typing animation for the tagline
+  designations:
+    - Think simple
+    - Do simple
+    - Build smart solutions
+    - SAP Cloud Architect
   
   # Add your avatar
   # image: /images/avatar.png

@@ -1,0 +1,36 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: SAP Cloud Technical Architect
+
+# your company information
+company:
+  name: SAP Professional
+  url: "#"
+
+# a summary about you
+summary: 'SAP Cloud Technical Architect working with the philosophy of "Think simple, do simple". Specialized in SAP BTP, AI and Cloud technologies, focused on developing modern and user-friendly solutions.'
+
+# your social links
+socialLinks:
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/gizemsoylutr"
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://linkedin.com/in/gizemsoylutr"
+
+# your soft skills
+softSkills:
+  - Simple & Effective Solutions
+  - Problem Solving
+  - Team Collaboration
+  - Technical Leadership

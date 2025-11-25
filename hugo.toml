@@ -1,6 +1,14 @@
 baseURL = "https://gizemsoylutr.github.io/"
 languageCode = "en-us"
-title = "Hey there!"
+title = "Gizem Nur Soylu"
+
+# Copyright
+copyright = "© 2025 Gizem Nur Soylu"
+
+# Meta description
+[params]
+  description = "SAP Cloud Technical Architect - Think simple, do simple"
+  author = "Gizem Nur Soylu"
 
 [module]
   [[module.imports]]

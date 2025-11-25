@@ -1,0 +1,40 @@
+# Site configuration
+# Copyright notice
+copyright: © 2025 Gizem Nur Soylu
+
+# Meta description
+description: SAP Cloud Technical Architect - Basit düşün, basit yap
+
+# Specify whether you want to show Table of Contents in reading pages
+enableTOC: true
+
+# Configure newsletter
+newsletter:
+  enable: false
+
+# Configure hero section
+hero:
+  enable: true
+  intro: "Hi, I am"
+  title: "Gizem Nur Soylu"
+  subtitle: "SAP Cloud Technical Architect"
+  content: "Think simple, do simple"
+  
+  # Add your avatar
+  # image: /images/avatar.png
+  
+  # Buttons
+  bottomImage:
+    enable: true
+  
+  # Social links
+  socialLinks:
+    fontAwesomeIcons:
+      - icon: fab fa-github
+        url: https://github.com/gizemsoylutr
+      - icon: fab fa-linkedin
+        url: https://linkedin.com/in/gizemsoylutr
+
+# Configure footer
+footer:
+  enable: true

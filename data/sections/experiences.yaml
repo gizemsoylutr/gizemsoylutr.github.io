@@ -1,0 +1,25 @@
+# section information
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: sections/experiences.html
+
+# Your experiences
+experiences:
+  - company:
+      name: SAP Ecosystem
+      url: "#"
+      location: Turkey
+      overview: Working with SAP technologies
+    positions:
+      - designation: SAP Cloud Technical Architect
+        start: 2020
+        responsibilities:
+          - Developing cloud-native applications on SAP BTP
+          - Integration of SAP AI Core and AI Business Services
+          - UI design with SAP UI5/Fiori
+          - Backend development with SAP CAP framework
+          - Technical architecture design and documentation

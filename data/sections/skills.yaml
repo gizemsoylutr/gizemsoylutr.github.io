@@ -1,0 +1,46 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/skills.html
+
+# Your skills
+skills:
+  - name: SAP Cloud Application Programming
+    logo: /images/skills/sap.png
+    summary: "Building modern cloud applications with SAP CAP"
+    url: "https://cap.cloud.sap/"
+
+  - name: SAP AI Core
+    logo: /images/skills/sap-ai.png
+    summary: "AI solutions with SAP AI Core"
+    url: "https://www.sap.com/products/artificial-intelligence.html"
+
+  - name: SAP AI Business Services
+    logo: /images/skills/sap-ai.png
+    summary: "Integration and implementation of SAP AI Business Services"
+
+  - name: SAP BTP
+    logo: /images/skills/sap-btp.png
+    summary: "Developing solutions on SAP Business Technology Platform"
+    url: "https://www.sap.com/products/technology-platform.html"
+
+  - name: SAP UI5 / Fiori
+    logo: /images/skills/sapui5.png
+    summary: "Modern user interfaces and Fiori applications"
+    url: "https://sapui5.hana.ondemand.com/"
+
+  - name: Cloud Architecture
+    logo: /images/skills/cloud.png
+    summary: "Cloud-based architecture design and implementation"
+
+  - name: JavaScript / TypeScript
+    logo: /images/skills/javascript.png
+    summary: "Modern web development technologies"
+
+  - name: Node.js
+    logo: /images/skills/nodejs.png
+    summary: "Backend development and API design"

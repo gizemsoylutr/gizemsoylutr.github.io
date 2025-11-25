@@ -30,7 +30,11 @@ socialLinks:
 
 # your soft skills
 softSkills:
-  - Simple & Effective Solutions
-  - Problem Solving
-  - Team Collaboration
-  - Technical Leadership
+  - name: Simple & Effective Solutions
+    icon: "fas fa-lightbulb"
+  - name: Problem Solving
+    icon: "fas fa-puzzle-piece"
+  - name: Team Collaboration
+    icon: "fas fa-users"
+  - name: Technical Leadership
+    icon: "fas fa-crown"

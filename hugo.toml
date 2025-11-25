@@ -8,7 +8,10 @@ copyright = "© 2025 Gizem Nur Soylu"
 # Meta description
 [params]
   description = "SAP Cloud Technical Architect - Think simple, do simple"
-  author = "Gizem Nur Soylu"
+  
+[params.author]
+  name = "Gizem Nur Soylu"
+  email = "gizem@example.com"
 
 [module]
   [[module.imports]]

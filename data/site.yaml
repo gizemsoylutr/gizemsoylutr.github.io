@@ -19,6 +19,7 @@ hero:
   title: "Gizem Nur Soylu"
   subtitle: "SAP Cloud Technical Architect"
   content: ""
+  image: /images/avatar.jpg
   
   # Typing animation for the tagline
   designations:

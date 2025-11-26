@@ -1,0 +1,11 @@
+<svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- G/C kavis -->
+  <path d="M150 120 A60 60 0 1 1 90 60" fill="none" stroke="#000" stroke-width="20" stroke-linecap="round"></path>
+
+  <!-- THINK yazısı: sola kaydırılmış, daha küçük, düzgün hizada -->
+  <text x="105" y="125" font-size="20" font-family="Inter, system-ui, sans-serif" font-weight="700" fill="#000" text-anchor="middle">
+    THINK
+  </text>
+
+</svg>

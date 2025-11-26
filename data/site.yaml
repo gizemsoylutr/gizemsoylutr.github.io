@@ -3,7 +3,13 @@
 copyright: © 2025 Gizem Nur Soylu
 
 # Meta description
-description: SAP Cloud Technical Architect - Basit düşün, basit yap
+description: SAP Cloud Technical Architect - Think simple, do simple
+
+# Favicon
+favicons:
+  - rel: icon
+    type: image/x-icon
+    href: /favicon.ico
 
 # Specify whether you want to show Table of Contents in reading pages
 enableTOC: true

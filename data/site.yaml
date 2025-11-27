@@ -8,8 +8,8 @@ description: SAP Cloud Technical Architect - Think simple, do simple
 # Favicon
 favicons:
   - rel: icon
-    type: image/x-icon
-    href: /favicon.ico
+    type: image/jpeg
+    href: images/favicon.jpg
 
 # Specify whether you want to show Table of Contents in reading pages
 enableTOC: true
@@ -25,7 +25,7 @@ hero:
   title: "Gizem Nur Soylu"
   subtitle: "SAP Cloud Technical Architect"
   content: ""
-  image: /images/avatar.jpg
+  image: images/avatar.jpg
   
   # Typing animation for the tagline
   designations:

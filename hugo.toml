@@ -8,7 +8,7 @@ copyright = "© 2025 Gizem Nur Soylu"
 # Meta description
 [params]
   description = "SAP Cloud Technical Architect - Think simple, do simple"
-  favicon = "/favicon.jpg"
+  favicon = "images/favicon.jpg"
   
 [params.author]
   name = "Gizem Nur Soylu"

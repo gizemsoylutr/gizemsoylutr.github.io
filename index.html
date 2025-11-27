@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/jpg" href="static/images/g_favicon.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gizem Nur Soylu - Coming Soon</title>
+  <style>
+    body {
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+    }
+    .logo {
+      max-width: 220px;
+      margin-bottom: 32px;
+      filter: drop-shadow(0 2px 12px rgba(0,0,0,0.12));
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      opacity: 0;
+      transform: translateY(-40px);
+      animation: logoFadeIn 1.2s cubic-bezier(.4,0,.2,1) forwards;
+    }
+
+    @keyframes logoFadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .coming-soon {
+      font-size: 2.8rem;
+      font-weight: 900;
+      margin-bottom: 18px;
+      background: linear-gradient(90deg,#222,#888);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 2px 16px rgba(0,0,0,0.12);
+      white-space: nowrap;
+      text-align: center;
+      opacity: 0;
+      transform: translateY(40px);
+      animation: textFadeIn 1.2s cubic-bezier(.4,0,.2,1) 0.8s forwards;
+    }
+
+    @keyframes textFadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .desc {
+      font-size: 1.25rem;
+      color: #444;
+      text-align: center;
+      margin-top: 8px;
+      line-height: 1.7;
+    }
+    .highlight {
+      background: linear-gradient(90deg,#00c6ff,#00ffb8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 600;
+    }
+    .caret {
+      font-weight: 900;
+      font-size: 2.8rem;
+      color: #222;
+      margin-left: 2px;
+      transition: opacity 0.2s;
+    }
+  </style>
+</head>
+<body>
+  <img src="static/images/g_logo.png" alt="Logo" class="logo">
+  <div class="coming-soon"><span id="typewriter"></span><span class="caret">|</span></div>
+  <script>
+    const steps = [
+      { text: "Just another dev site.", pause: 900, erase: true },
+      { text: "But hey,", pause: 700, erase: true },
+      { text: "Stay tuned for cool stuff!", pause: 900, erase: true }
+    ];
+    const typewriter = document.getElementById("typewriter");
+    const caret = document.querySelector(".caret");
+    let stepIndex = 0;
+    let charIndex = 0;
+    let typingSpeed = 90;
+    let erasingSpeed = 50;
+    let isErasing = false;
+
+    function typeStep() {
+      const current = steps[stepIndex];
+      if (!isErasing) {
+        if (charIndex <= current.text.length) {
+          typewriter.textContent = current.text.substring(0, charIndex);
+          charIndex++;
+          setTimeout(typeStep, typingSpeed);
+        } else {
+          if (current.erase) {
+            setTimeout(() => { isErasing = true; typeStep(); }, current.pause);
+          }
+        }
+      } else {
+        if (charIndex > 0) {
+          typewriter.textContent = current.text.substring(0, charIndex - 1);
+          charIndex--;
+          setTimeout(typeStep, erasingSpeed);
+        } else {
+          isErasing = false;
+          stepIndex++;
+          if (stepIndex < steps.length) {
+            setTimeout(typeStep, typingSpeed);
+          } else {
+            stepIndex = 0;
+            setTimeout(typeStep, typingSpeed);
+          }
+        }
+      }
+    }
+    typeStep();
+    // Caret blink
+    setInterval(() => {
+      caret.style.opacity = caret.style.opacity === "0" ? "1" : "0";
+    }, 500);
+  </script>
+</body>
+</html>
+</body>
+</html>

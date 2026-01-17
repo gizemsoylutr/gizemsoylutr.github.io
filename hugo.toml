@@ -7,12 +7,19 @@ copyright = "© 2025 Gizem Nur Soylu"
 
 # Meta description
 [params]
-  description = "SAP Cloud Technical Architect - Think simple, do simple"
+  description = "SAP BTP Technical Architect | SAP Developer - Think simple, do simple"
   favicon = "images/favicon.jpg"
   
 [params.author]
   name = "Gizem Nur Soylu"
   email = "gizemsoylu.tr@gmail.com"
+
+[params.social]
+  github = "https://github.com/gizemsoylutr"
+  linkedin = "https://www.linkedin.com/in/gizemnursoylu/"
+  youtube = "https://www.youtube.com/@BTPStack"
+  instagram = "https://www.instagram.com/btpstack"
+  mail = "mailto:btpstack@gmail.com"
 
 [module]
   [[module.imports]]

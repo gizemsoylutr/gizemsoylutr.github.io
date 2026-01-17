@@ -9,8 +9,15 @@
     <managingEditor>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</managingEditor>
     <webMaster>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</webMaster>
     <copyright>© 2025 Gizem Nur Soylu</copyright>
-    <lastBuildDate>Thu, 15 Jan 2026 10:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gizemsoylutr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://gizemsoylutr.github.io/about/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate><author>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</author>
+      <guid>https://gizemsoylutr.github.io/about/</guid>
+      <description>&lt;p&gt;Fullstack developer crafting intelligent applications on SAP BTP.&lt;/p&gt;&#xA;&lt;p&gt;Currently at &lt;strong&gt;NTT DATA Business Solutions&lt;/strong&gt; in Denmark.&lt;/p&gt;&#xA;&lt;p&gt;I build with CAP, RAP, SAPUI5, SAP Build, Joule and AI Core.&lt;/p&gt;&#xA;&lt;p&gt;Clean code. Smart automation. Cloud-native solutions.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Code-first. Real-world problems.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Connecting a Local SAP CAP Application to SAP BTP PostgreSQL in Hybrid Profile</title>
       <link>https://gizemsoylutr.github.io/blogs/connecting-local-sap-cap-to-btp-postgresql/</link>

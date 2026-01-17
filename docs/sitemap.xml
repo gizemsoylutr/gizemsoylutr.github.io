@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gizemsoylutr.github.io/about/</loc>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gizemsoylutr.github.io/</loc>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gizemsoylutr.github.io/blogs/</loc>
     <lastmod>2026-01-15T10:00:00+03:00</lastmod>
   </url><url>
@@ -15,9 +21,6 @@
     <lastmod>2026-01-15T10:00:00+03:00</lastmod>
   </url><url>
     <loc>https://gizemsoylutr.github.io/blogs/connecting-local-sap-cap-to-btp-postgresql/</loc>
-    <lastmod>2026-01-15T10:00:00+03:00</lastmod>
-  </url><url>
-    <loc>https://gizemsoylutr.github.io/</loc>
     <lastmod>2026-01-15T10:00:00+03:00</lastmod>
   </url><url>
     <loc>https://gizemsoylutr.github.io/tags/hybrid/</loc>

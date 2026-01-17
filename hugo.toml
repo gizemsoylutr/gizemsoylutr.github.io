@@ -23,3 +23,8 @@ copyright = "© 2025 Gizem Nur Soylu"
   mail = "mailto:btpstack@gmail.com"
 
 publishDir = "docs"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

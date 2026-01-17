@@ -4,14 +4,14 @@ date: 2026-01-17
 draft: false
 ---
 
-Fullstack developer crafting intelligent applications on SAP BTP.
+Hey — I'm Gi.
 
-Currently at **NTT DATA Business Solutions** in Denmark.
+I design and build real-world applications on SAP BTP.
 
-I build with CAP, RAP, SAPUI5, SAP Build, Joule and AI Core.
+SAP BTP Technical Architect at **NTT DATA Business Solutions** in Denmark. I focus on cloud-native, scalable solutions using CAP, RAP, and AI Core — plus SAPUI5, SAP Build, and integration scenarios.
 
-Clean code. Smart automation. Cloud-native solutions.
+Beyond project work, I share practical tutorials on my YouTube channel <a href="https://www.youtube.com/@btpstack" target="_blank"><strong>BTP Stack</strong></a>. Code-first content that reflects how SAP BTP is actually used in production.
 
 ---
 
-*Code-first. Real-world problems.*
+*Clean architecture. Real problems. Always learning.*

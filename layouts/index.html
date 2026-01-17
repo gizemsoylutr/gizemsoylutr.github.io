@@ -199,7 +199,14 @@
             <a href="/about/" class="nav-btn">about</a>
         </nav>
 
-        <a href="/posts/" style="text-decoration: none;">
+        {{ $latestPost := first 1 (where .Site.RegularPages "Type" "in" (slice "posts" "post")) }}
+        {{ if $latestPost }}
+            {{ range $latestPost }}
+                <a href="{{ .RelPermalink }}" style="text-decoration: none;">
+            {{ end }}
+        {{ else }}
+            <a href="/posts/" style="text-decoration: none;">
+        {{ end }}
             <div class="hero-content">
                 <h1 class="hero-text">
                     <span class="line1">click to</span>

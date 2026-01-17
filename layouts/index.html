@@ -195,23 +195,23 @@
         <div class="hero-overlay"></div>
         
         <nav class="nav-buttons">
-            <a href="/posts/" class="nav-btn">blog</a>
+            <a href="/blogs/" class="nav-btn">blog</a>
             <a href="/about/" class="nav-btn">about</a>
         </nav>
 
-        {{ $latestPost := first 1 (where .Site.RegularPages "Type" "in" (slice "posts" "post")) }}
+        {{ $latestPost := first 1 (where .Site.RegularPages "Type" "in" (slice "blogs" "blog")) }}
         {{ if $latestPost }}
             {{ range $latestPost }}
                 <a href="{{ .RelPermalink }}" style="text-decoration: none;">
             {{ end }}
         {{ else }}
-            <a href="/posts/" style="text-decoration: none;">
+            <a href="/blogs/" style="text-decoration: none;">
         {{ end }}
             <div class="hero-content">
                 <h1 class="hero-text">
                     <span class="line1">click to</span>
                     <span class="line2">read the</span>
-                    <span class="highlight">latest post</span>
+                    <span class="highlight">latest blog</span>
                 </h1>
             </div>
         </a>

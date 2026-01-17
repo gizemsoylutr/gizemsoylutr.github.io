@@ -9,6 +9,42 @@
     <managingEditor>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</managingEditor>
     <webMaster>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</webMaster>
     <copyright>© 2025 Gizem Nur Soylu</copyright>
+    <lastBuildDate>Thu, 15 Jan 2026 10:00:00 +0300</lastBuildDate>
     <atom:link href="https://gizemsoylutr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BTP</title>
+      <link>https://gizemsoylutr.github.io/tags/btp/</link>
+      <pubDate>Thu, 15 Jan 2026 10:00:00 +0300</pubDate><author>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</author>
+      <guid>https://gizemsoylutr.github.io/tags/btp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CAP</title>
+      <link>https://gizemsoylutr.github.io/tags/cap/</link>
+      <pubDate>Thu, 15 Jan 2026 10:00:00 +0300</pubDate><author>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</author>
+      <guid>https://gizemsoylutr.github.io/tags/cap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hybrid</title>
+      <link>https://gizemsoylutr.github.io/tags/hybrid/</link>
+      <pubDate>Thu, 15 Jan 2026 10:00:00 +0300</pubDate><author>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</author>
+      <guid>https://gizemsoylutr.github.io/tags/hybrid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://gizemsoylutr.github.io/tags/postgresql/</link>
+      <pubDate>Thu, 15 Jan 2026 10:00:00 +0300</pubDate><author>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</author>
+      <guid>https://gizemsoylutr.github.io/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SAP</title>
+      <link>https://gizemsoylutr.github.io/tags/sap/</link>
+      <pubDate>Thu, 15 Jan 2026 10:00:00 +0300</pubDate><author>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</author>
+      <guid>https://gizemsoylutr.github.io/tags/sap/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

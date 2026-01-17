@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gizem Nur Soylu</title>
-    <link>https://gizemsoylutr.github.io/</link>
-    <description>Recent content on Gizem Nur Soylu</description>
+    <title>PostgreSQL on Gizem Nur Soylu</title>
+    <link>https://gizemsoylutr.github.io/tags/postgresql/</link>
+    <description>Recent content in PostgreSQL on Gizem Nur Soylu</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</managingEditor>
     <webMaster>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</webMaster>
     <copyright>© 2025 Gizem Nur Soylu</copyright>
     <lastBuildDate>Thu, 15 Jan 2026 10:00:00 +0300</lastBuildDate>
-    <atom:link href="https://gizemsoylutr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gizemsoylutr.github.io/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connecting a Local SAP CAP Application to SAP BTP PostgreSQL in Hybrid Profile</title>
       <link>https://gizemsoylutr.github.io/blogs/connecting-local-sap-cap-to-btp-postgresql/</link>

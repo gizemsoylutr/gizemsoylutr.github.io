@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }} - {{ .Site.Title }}</title>
     <link rel="icon" href="{{ "images/favicon.jpg" | relURL }}">
+    {{ partial "google-analytics.html" . }}
     <style>
         * {
             margin: 0;

@@ -9,6 +9,7 @@ copyright = "© 2025 Gizem Nur Soylu"
 [params]
   description = "SAP BTP Technical Architect | SAP Developer - Think simple, do simple"
   favicon = "images/favicon.jpg"
+  googleAnalytics = "G-WSQ7Y0ENWV"
   
 [params.author]
   name = "Gizem Nur Soylu"
@@ -20,5 +21,5 @@ copyright = "© 2025 Gizem Nur Soylu"
   youtube = "https://www.youtube.com/@BTPStack"
   instagram = "https://www.instagram.com/btpstack"
   mail = "mailto:btpstack@gmail.com"
-  
+
 publishDir = "docs"

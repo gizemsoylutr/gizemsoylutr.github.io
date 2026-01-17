@@ -6,6 +6,7 @@
     <title>Blog - {{ .Site.Title }}</title>
     <meta name="description" content="All blog posts">
     <link rel="icon" href="{{ "images/favicon.jpg" | relURL }}">
+    {{ partial "google-analytics.html" . }}
     <style>
         * {
             margin: 0;

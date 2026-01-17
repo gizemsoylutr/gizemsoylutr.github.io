@@ -4,10 +4,11 @@
     <title>Categories on Gizem Nur Soylu</title>
     <link>https://gizemsoylutr.github.io/categories/</link>
     <description>Recent content in Categories on Gizem Nur Soylu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</managingEditor>
     <webMaster>gizemsoylu.tr@gmail.com (Gizem Nur Soylu)</webMaster>
-    <copyright>© 2025 Gizem Nur Soylu</copyright><atom:link href="https://gizemsoylutr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Gizem Nur Soylu</copyright>
+    <atom:link href="https://gizemsoylutr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

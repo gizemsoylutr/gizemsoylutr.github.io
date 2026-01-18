@@ -4,7 +4,7 @@
 	<meta name="generator" content="Hugo 0.152.2">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gizem Nur Soylu</title>
+    <title>Gizem Nur Soylu - SAP BTP Technical Architect</title>
     <meta name="description" content="SAP BTP Technical Architect | SAP Developer - Think simple, do simple">
     <link rel="icon" href="/images/favicon.png">
     
@@ -98,6 +98,24 @@
             text-align: center;
             padding: 20px;
             max-width: 1200px;
+        }
+
+        .hero-logo {
+            width: clamp(80px, 15vw, 200px);
+            height: auto;
+            margin-bottom: 2rem;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .hero-text {
@@ -224,6 +242,7 @@
             
         
             <div class="hero-content">
+                <img src="/images/g_logo_white.png" alt="Gi Logo" class="hero-logo">
                 <h1 class="hero-text">
                     <span class="line1">click to</span>
                     <span class="line2">read the</span>

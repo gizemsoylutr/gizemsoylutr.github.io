@@ -89,6 +89,24 @@
             max-width: 1200px;
         }
 
+        .hero-logo {
+            width: clamp(80px, 15vw, 200px);
+            height: auto;
+            margin-bottom: 2rem;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
         .hero-text {
             color: white;
             font-size: clamp(2.5rem, 8vw, 7rem);
@@ -215,6 +233,7 @@
             <a href="/blogs/" style="text-decoration: none;">
         {{ end }}
             <div class="hero-content">
+                <img src="{{ "images/g_logo_white.png" | relURL }}" alt="Gi Logo" class="hero-logo">
                 <h1 class="hero-text">
                     <span class="line1">click to</span>
                     <span class="line2">read the</span>

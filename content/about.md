@@ -15,9 +15,6 @@ Beyond project work, I share practical tutorials on my YouTube channel <a href="
 
 
 *Clean architecture. Real problems. Always learning.*
-<!-- SAP Badge Embeds -->
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="562fe077-2838-41e6-a80c-774689c7eb9d" data-share-badge-host="https://www.credly.com"></div>
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="41b6264c-c6bb-4419-8a35-c74b8477771b" data-share-badge-host="https://www.credly.com"></div>
 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin: 1.5rem 0; font-weight: 600; font-size: 1.05rem;">
 	<span style="background: #f7fafc; color: #667eea; border-radius: 20px; padding: 0.5rem 1.2rem; border: 1px solid #667eea;">SAP Business Technology Platform</span>
@@ -26,4 +23,9 @@ Beyond project work, I share practical tutorials on my YouTube channel <a href="
 	<span style="background: #f7fafc; color: #667eea; border-radius: 20px; padding: 0.5rem 1.2rem; border: 1px solid #667eea;">Generative AI</span>
 	<span style="background: #f7fafc; color: #667eea; border-radius: 20px; padding: 0.5rem 1.2rem; border: 1px solid #667eea;">SAP Joule & Build Agent</span>
 	<span style="background: #f7fafc; color: #667eea; border-radius: 20px; padding: 0.5rem 1.2rem; border: 1px solid #667eea;">Agentic Enterprise Architectures</span>
+</div>
+<!-- SAP Badge Embeds -->
+<div style="display: flex; justify-content: center; gap: 2rem; margin-top: 1.5rem; margin-bottom: 1.5rem;">
+  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="562fe077-2838-41e6-a80c-774689c7eb9d" data-share-badge-host="https://www.credly.com"></div>
+  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="41b6264c-c6bb-4419-8a35-c74b8477771b" data-share-badge-host="https://www.credly.com"></div>
 </div>

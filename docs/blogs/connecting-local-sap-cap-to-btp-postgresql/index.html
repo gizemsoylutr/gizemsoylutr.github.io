@@ -251,10 +251,10 @@ The screenshot below illustrates:">
 <p>The PostgreSQL (Hyperscaler Option) service on SAP BTP is deployed within the internal Cloud Foundry network and is not publicly accessible. As a result, a local development environment cannot connect to the database directly.</p>
 <p>To enable local access, an SSH tunnel must be established via a Cloud Foundry application that has network-level access to the PostgreSQL instance.</p>
 <p>This is achieved using the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cf ssh -L 63306:&lt;your_instance_host&gt;:&lt;your_instance_port&gt; &lt;your_application_name_srv&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cf ssh -L 63306:&lt;your_instance_host&gt;:&lt;your_instance_port&gt; &lt;your_application_name_srv&gt;
 </span></span></code></pre></div><h2 id="configure-cap-for-local-access-via-ssh-tunnel">Configure CAP for Local Access via SSH Tunnel</h2>
 <p>Create/update the file <code>.cdsrc-private.json</code> in the project root with the following configuration:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;requires&#34;</span>: {
 </span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;[hybrid]&#34;</span>: {
 </span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;db&#34;</span>: {
@@ -277,7 +277,7 @@ The screenshot below illustrates:">
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="running-the-cap-application-in-hybrid-profile">Running the CAP Application in Hybrid Profile</h2>
 <p>Once the <code>.cdsrc-private.json</code> file is in place and the SSH tunnel is active, start the CAP application locally using the hybrid profile:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cds w --profile hybrid
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cds w --profile hybrid
 </span></span></code></pre></div><hr>
 <p><em>Reading time: 2 minutes</em></p>
 

@@ -15,6 +15,10 @@ copyright = "© 2025 Gizem Nur Soylu"
   name = "Gizem Nur Soylu"
   email = "gizemsoylu.tr@gmail.com"
 
+[params.booking]
+  business = "https://outlook.office.com/bookwithme/user/b8f549c7d32f4b0ab2e9bfa21482d0e0@bs.nttdata.com/meetingtype/EMouG2zzGE-7WcxmtOonRQ2?anonymous&ismsaljsauthenabled&ep=mLinkFromTile"
+  coffee = "https://outlook.office.com/bookwithme/user/b8f549c7d32f4b0ab2e9bfa21482d0e0@bs.nttdata.com/meetingtype/t7yIQG1fv0SUJhLgw683Gg2?anonymous&ismsaljsauthenabled&ep=mlink"
+
 [params.social]
   github = "https://github.com/gizemsoylutr"
   linkedin = "https://www.linkedin.com/in/gizemnursoylu/"

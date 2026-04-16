@@ -4,7 +4,7 @@
 	<meta name="generator" content="Hugo 0.157.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gizem Nur Soylu - SAP BTP & AI Technical Architect</title>
+    <title>Gizem Nur Soylu - SAP BTP Technical Architect</title>
     <meta name="description" content="SAP BTP Technical Architect | SAP Developer - Think simple, do simple">
     <link rel="icon" href="/images/favicon.png">
     
@@ -90,6 +90,125 @@
             background: rgba(255, 255, 255, 0.2);
             border-color: white;
             transform: translateX(-5px);
+        }
+
+        .nav-dropdown {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .nav-btn-letstalk {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+
+        .nav-btn-letstalk .arrow {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            border-top: 5px solid rgba(255,255,255,0.85);
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .nav-dropdown:hover .nav-btn-letstalk .arrow {
+            transform: rotate(180deg);
+        }
+
+        .nav-dropdown-menu {
+            display: grid;
+            grid-template-rows: 0fr;
+            opacity: 0;
+            transition: grid-template-rows 0.35s ease, opacity 0.25s ease;
+            overflow: hidden;
+            gap: 0;
+            margin-top: 0;
+        }
+
+        .nav-dropdown-menu-inner {
+            min-height: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-top: 10px;
+        }
+
+        .nav-dropdown:hover .nav-dropdown-menu {
+            grid-template-rows: 1fr;
+            opacity: 1;
+        }
+
+        .talk-card {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 18px;
+            border-radius: 16px;
+            text-decoration: none;
+            color: white;
+            backdrop-filter: blur(12px);
+            border: 1.5px solid rgba(255,255,255,0.25);
+            transition: all 0.3s ease;
+            min-width: 180px;
+        }
+
+        .talk-card-icon {
+            font-size: 22px;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        .talk-card-body {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .talk-card-title {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+            text-transform: lowercase;
+        }
+
+        .talk-card-sub {
+            font-size: 11px;
+            opacity: 0.72;
+            font-weight: 400;
+            letter-spacing: 0.2px;
+        }
+
+         
+        .talk-card--business {
+            background: rgba(79, 70, 229, 0.25);
+            border-color: rgba(129, 120, 255, 0.4);
+        }
+
+        .talk-card--business:hover {
+            background: rgba(79, 70, 229, 0.5);
+            border-color: rgba(165, 158, 255, 0.8);
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 8px 24px rgba(79, 70, 229, 0.45);
+        }
+
+         
+        .talk-card--coffee {
+            background: rgba(217, 119, 6, 0.22);
+            border-color: rgba(251, 191, 36, 0.35);
+        }
+
+        .talk-card--coffee:hover {
+            background: rgba(217, 119, 6, 0.45);
+            border-color: rgba(251, 191, 36, 0.75);
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 8px 24px rgba(217, 119, 6, 0.4);
         }
 
         .hero-content {
@@ -233,6 +352,27 @@
         <nav class="nav-buttons">
             <a href="/blogs/" class="nav-btn">blog</a>
             <a href="/about/" class="nav-btn">about</a>
+            <div class="nav-dropdown">
+                <a class="nav-btn nav-btn-letstalk">let's talk <span class="arrow"></span></a>
+                <div class="nav-dropdown-menu">
+                    <div class="nav-dropdown-menu-inner">
+                        <a href="https://outlook.office.com/bookwithme/user/b8f549c7d32f4b0ab2e9bfa21482d0e0@bs.nttdata.com/meetingtype/EMouG2zzGE-7WcxmtOonRQ2?anonymous&amp;ismsaljsauthenabled&amp;ep=mLinkFromTile" class="talk-card talk-card--business" target="_blank" rel="noopener">
+                            <span class="talk-card-icon">💼</span>
+                            <div class="talk-card-body">
+                                <span class="talk-card-title">business</span>
+                                <span class="talk-card-sub">quick sync · 25 min</span>
+                            </div>
+                        </a>
+                        <a href="https://outlook.office.com/bookwithme/user/b8f549c7d32f4b0ab2e9bfa21482d0e0@bs.nttdata.com/meetingtype/t7yIQG1fv0SUJhLgw683Gg2?anonymous&amp;ismsaljsauthenabled&amp;ep=mlink" class="talk-card talk-card--coffee" target="_blank" rel="noopener">
+                            <span class="talk-card-icon">☕</span>
+                            <div class="talk-card-body">
+                                <span class="talk-card-title">coffee chat</span>
+                                <span class="talk-card-sub">let's catch up · 15 min</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </nav>
 
         

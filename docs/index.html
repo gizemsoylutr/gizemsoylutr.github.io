@@ -306,26 +306,82 @@
         }
 
         @media (max-width: 768px) {
+            .hero-section {
+                align-items: flex-start;
+                padding-top: 210px;
+            }
+
+            .hero-content {
+                width: 100%;
+                padding: 20px 18px;
+            }
+
             .nav-buttons {
-                top: 20px;
-                right: 20px;
-                gap: 10px;
+                top: 16px;
+                right: auto;
+                left: 50%;
+                transform: translateX(-50%);
+                width: min(calc(100vw - 24px), 210px);
+                gap: 8px;
             }
 
             .nav-btn {
-                padding: 10px 20px;
-                font-size: 14px;
+                width: 100%;
+                padding: 9px 18px;
+                font-size: 13px;
+            }
+
+            .nav-dropdown {
+                width: 100%;
+            }
+
+            .nav-dropdown-menu-inner {
+                gap: 8px;
+                padding-top: 6px;
+            }
+
+            .talk-card {
+                width: 100%;
+                min-width: 0;
+                gap: 10px;
+                padding: 10px 14px;
+                border-radius: 14px;
+            }
+
+            .talk-card-icon {
+                font-size: 20px;
+            }
+
+            .talk-card-title {
+                font-size: 13px;
+            }
+
+            .talk-card-sub {
+                font-size: 10px;
+            }
+
+            .hero-text {
+                font-size: clamp(2.2rem, 10vw, 4rem);
+                line-height: 1.05;
+            }
+
+            .hero-text .line1 {
+                margin-bottom: 6px;
+            }
+
+            .hero-text .line2 {
+                font-size: 0.92em;
             }
 
             .social-links {
-                bottom: 20px;
-                gap: 15px;
+                bottom: 16px;
+                gap: 12px;
             }
 
             .social-link {
-                width: 35px;
-                height: 35px;
-                font-size: 16px;
+                width: 34px;
+                height: 34px;
+                font-size: 15px;
             }
         }
 

@@ -107,7 +107,7 @@
             flex-shrink: 0;
         }
 
-        .nav-dropdown:hover .nav-btn-letstalk .arrow {
+        .nav-dropdown.is-open .nav-btn-letstalk .arrow {
             transform: rotate(180deg);
         }
 
@@ -129,9 +129,20 @@
             padding-top: 10px;
         }
 
-        .nav-dropdown:hover .nav-dropdown-menu {
+        .nav-dropdown.is-open .nav-dropdown-menu {
             grid-template-rows: 1fr;
             opacity: 1;
+        }
+
+        @media (hover: hover) and (pointer: fine) {
+            .nav-dropdown:hover .nav-btn-letstalk .arrow {
+                transform: rotate(180deg);
+            }
+
+            .nav-dropdown:hover .nav-dropdown-menu {
+                grid-template-rows: 1fr;
+                opacity: 1;
+            }
         }
 
         .talk-card {
@@ -295,26 +306,95 @@
         }
 
         @media (max-width: 768px) {
+            .hero-section {
+                align-items: flex-start;
+                padding-top: 250px;
+            }
+
+            .hero-content {
+                width: 100%;
+                padding: 20px 18px;
+            }
+
+            .hero-logo {
+                width: clamp(54px, 12vw, 72px);
+                margin-bottom: 1rem;
+            }
+
             .nav-buttons {
-                top: 20px;
-                right: 20px;
-                gap: 10px;
+                top: 16px;
+                right: auto;
+                left: 50%;
+                transform: translateX(-50%);
+                width: min(calc(100vw - 24px), 210px);
+                gap: 8px;
             }
 
             .nav-btn {
-                padding: 10px 20px;
-                font-size: 14px;
+                width: 100%;
+                padding: 9px 18px;
+                font-size: 13px;
+            }
+
+            .nav-dropdown {
+                width: 100%;
+            }
+
+            .nav-dropdown-menu-inner {
+                gap: 8px;
+                padding-top: 6px;
+            }
+
+            .hero-section.menu-open .hero-content {
+                transform: translateY(72px);
+            }
+
+            .talk-card {
+                width: 100%;
+                min-width: 0;
+                gap: 10px;
+                padding: 10px 14px;
+                border-radius: 14px;
+            }
+
+            .talk-card-icon {
+                font-size: 20px;
+            }
+
+            .talk-card-title {
+                font-size: 13px;
+            }
+
+            .talk-card-sub {
+                font-size: 10px;
+            }
+
+            .hero-text {
+                font-size: clamp(2.2rem, 10vw, 4rem);
+                line-height: 1.05;
+            }
+
+            .hero-text .line1 {
+                margin-bottom: 6px;
+            }
+
+            .hero-text .line2 {
+                font-size: 0.92em;
+            }
+
+            .hero-content {
+                transition: transform 0.3s ease;
             }
 
             .social-links {
-                bottom: 20px;
-                gap: 15px;
+                bottom: 16px;
+                gap: 12px;
             }
 
             .social-link {
-                width: 35px;
-                height: 35px;
-                font-size: 16px;
+                width: 34px;
+                height: 34px;
+                font-size: 15px;
             }
         }
 
@@ -342,7 +422,7 @@
             <a href="/blogs/" class="nav-btn">blog</a>
             <a href="/about/" class="nav-btn">about</a>
             <div class="nav-dropdown">
-                <a class="nav-btn nav-btn-letstalk">let's talk <span class="arrow"></span></a>
+                <a href="#" class="nav-btn nav-btn-letstalk" aria-expanded="false">let's talk <span class="arrow"></span></a>
                 <div class="nav-dropdown-menu">
                     <div class="nav-dropdown-menu-inner">
                         <a href="{{ .Site.Params.booking.business }}" class="talk-card talk-card--business" target="_blank" rel="noopener">
@@ -414,5 +494,49 @@
             {{ .Site.Copyright }}
         </div>
     </div>
+    <script>
+        (() => {
+            const heroSection = document.querySelector('.hero-section');
+            const talkToggle = document.querySelector('.nav-btn-letstalk');
+            const navDropdown = document.querySelector('.nav-dropdown');
+
+            if (!heroSection || !talkToggle || !navDropdown) {
+                return;
+            }
+
+            const mobileQuery = window.matchMedia('(max-width: 768px)');
+
+            const setMenuOpen = (isOpen) => {
+                navDropdown.classList.toggle('is-open', isOpen);
+                heroSection.classList.toggle('menu-open', isOpen);
+                talkToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            };
+
+            talkToggle.addEventListener('click', (event) => {
+                if (!mobileQuery.matches) {
+                    return;
+                }
+
+                event.preventDefault();
+                setMenuOpen(!navDropdown.classList.contains('is-open'));
+            });
+
+            document.addEventListener('click', (event) => {
+                if (!mobileQuery.matches || !navDropdown.classList.contains('is-open')) {
+                    return;
+                }
+
+                if (!navDropdown.contains(event.target)) {
+                    setMenuOpen(false);
+                }
+            });
+
+            mobileQuery.addEventListener('change', () => {
+                if (!mobileQuery.matches) {
+                    setMenuOpen(false);
+                }
+            });
+        })();
+    </script>
 </body>
 </html>
